@@ -356,7 +356,8 @@ hr {
 .text {
     text-align: center;
     width: 40%;
-    padding: 20px 0;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .button {
