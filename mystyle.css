@@ -18,7 +18,7 @@ body {
     height: 52px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-end;
     align-items: center;
     padding: 0 40px;
     position: fixed;
@@ -32,6 +32,10 @@ body {
 .logo {
     text-decoration: none;
     color: black;
+    position: fixed;
+    z-index: 2;
+    top: 18px;
+    left: 40px;
 }
 
 .navbar-items li {
@@ -67,13 +71,13 @@ body {
     width: 0;
     height: 4px;
     background: #4aa4c1;
-    transition: width .4s;
+    transition: width 0.5s;
 
 }
 
 .navbar-items li a:hover::after {
     width: 100%;
-    //transition: width .4s;
+    //transition: width 0.5s;
 
 }
 
@@ -130,7 +134,9 @@ body {
     height: 60vh;
     object-fit: cover;
 
+
 }
+
 
 .helpus {
     color: #fcfcfc;
@@ -156,7 +162,7 @@ body {
     animation-name: earthdown;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 3s;
+    animation-delay: 2s;
     animation-timing-function: ease-in;
 }
 
@@ -183,7 +189,7 @@ body {
     animation-name: usdown;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    animation-delay: 3s;
+    animation-delay: 2s;
     animation-timing-function: ease-in;
 }
 
@@ -237,13 +243,13 @@ body {
     width: 0;
     height: 4px;
     background: #4aa4c1;
-    transition: width .4s;
+    transition: width 0.5s;
 
 }
 
 .subpages li a:hover::after {
     width: 90%;
-    //transition: width .4s;
+    //transition: width 0.5s;
 
 }
 
@@ -451,13 +457,16 @@ padding: 10px 26px;
 
 @media(max-width:768px) {
 
-
+    .logo {
+        left: 20px;
+    }
     .navbar-items {
         display: none;
     }
 
 
     .menu-wrap {
+
         position: fixed;
         top: 0;
         right: 0;
@@ -538,7 +547,7 @@ padding: 10px 26px;
 
     .menu {
         margin-top: 52px;
-        background: #4aa4c1;
+        background: #172538;
         opacity: 1;
         height: 100vh;
         width: 100vw;
@@ -621,19 +630,19 @@ padding: 10px 26px;
 
     .followbox1 {
         width: 100%;
-        height: 150px;
+        height: 23vh;
     }
     .followbox2 {
         width: 100%;
-        height: 150px;
+        height: 23vh;
     }
     .followbox3 {
         width: 100%;
-        height: 150px;
+        height: 23vh;
     }
     .followbox4 {
         width: 100%;
-        height: 150px;
+        height: 23vh;
     }
 
     .content {
