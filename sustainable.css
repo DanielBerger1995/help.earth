@@ -149,7 +149,8 @@ body {
     }
 
     .toptext {
-        height: 70vh;
+        height: 80vh;
+        width: 80%;
     }
 
     .topic {
@@ -171,9 +172,10 @@ body {
     }
 
     .share {
-        width: 100%;
+        width: 80%;
 
     }
+
 
     .background {
         width: 100%;
