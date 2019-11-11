@@ -455,7 +455,7 @@ padding: 10px 26px;
 
 
 
-@media(max-width:768px) {
+@media(max-width:600px) {
 
     .logo {
         left: 20px;
@@ -580,7 +580,7 @@ padding: 10px 26px;
 }
 
     .box1 {
-    width: 105%;
+    width: 100%;
     height: 100%;
     border: solid 2px #e8e8e8;
     cursor: pointer;
@@ -615,11 +615,11 @@ padding: 10px 26px;
 
     .vid {
     height: auto;
-    width: 200px;
+    width: 300px;
 }
 
     .text {
-        padding-top: 20px;
+
     width: 80%;
 
 }
@@ -650,7 +650,7 @@ padding: 10px 26px;
     }
      }
 
-@media(min-width:768px) {
+@media(min-width:600px) {
     .menu-wrap {
         display: none;
     }

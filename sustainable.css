@@ -50,17 +50,20 @@ body {
 }
 
 .title {
-    font-size: 22px;
+    font-size: 26px;
     font-family: 'Lora', serif;
     margin-bottom: 20px;
+    width: 60%;
+    margin: auto;
 }
 
 .pop {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .topic {
-    margin-bottom: 50px;
+    cursor: pointer;
+    padding-bottom: 10px;
     color: #4aa4c1;
 }
 
@@ -82,6 +85,7 @@ body {
     width: 50px;
     background: #3b5998;
     border-radius: 50%;
+    padding: 0 5px;
 }
 
 .circle2 {
@@ -89,6 +93,7 @@ body {
     width: 50px;
     background: #E4405F;
     border-radius: 50%;
+    padding: 0 5px;
 }
 
 .circle3 {
@@ -96,9 +101,11 @@ body {
     width: 50px;
     background: #00acee;
     border-radius: 50%;
+    padding: 0 5px;
 }
 
 .share {
+    cursor: pointer;
     width: 60%;
     justify-content: space-around;
     margin-top: 50px;
@@ -130,6 +137,10 @@ body {
     line-height: 30px;
 }
 
+.intro {
+    text-align: center;
+}
+
 .articleimg {
     width: 100%;
     height: 300px;
@@ -142,11 +153,73 @@ body {
     font-size: 24px;
 }
 
+.alltext a {
+    color: #4aa4c1;
+}
+
 .photosource {
     font-size: 14px;
 }
 
-@media(max-width:768px) {
+.recyclingsymbols {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.symbolgrp {
+    width: 45%;
+    height: 45%;
+}
+
+.symbolimg {
+    width: 100%;
+    height: 100%;
+}
+
+.commonhead {
+    font-family: 'Questrial', sans-serif;
+    color: #4aa4c1;
+    font-size: 24px;
+    margin-left: 20px;
+
+}
+
+.commoncontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.commoncontainer p {
+    font-family: 'Lora', serif;
+    font-size: 14px;
+}
+
+.boxy {
+    text-align: center;
+    width: 30%;
+}
+
+.boxy p {
+    padding: 10px 0 20px 0;
+    margin: auto;
+    width: 80%;
+}
+
+.commonimg {
+    width: 100%;
+
+
+}
+.related {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+
+@media(max-width:600px) {
     .topsection {
         display: flex;
         flex-direction: column;
@@ -158,7 +231,7 @@ body {
 
     .toptext {
         height: 80vh;
-        width: 80%;
+        width: 60%;
     }
 
     .topic {
@@ -170,7 +243,7 @@ body {
     }
 
     .pop {
-        margin-top: 20%;
+        margin-top: 5%;
     }
 
     .mainimg {
@@ -181,7 +254,7 @@ body {
 
     .share {
         width: 80%;
-        padding-top: 50px;
+
 
     }
 
@@ -192,5 +265,13 @@ body {
 
     .alltext {
         width: 80%;
+    }
+
+    .commonhead {
+        margin-left: 5px;
+    }
+
+    .boxy {
+        width: 48%;
     }
 }
