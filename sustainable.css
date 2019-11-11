@@ -181,14 +181,18 @@ body {
     font-family: 'Questrial', sans-serif;
     color: #4aa4c1;
     font-size: 24px;
-    margin-left: 20px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
 
 }
 
 .commoncontainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
 }
 
 .commoncontainer p {
@@ -204,7 +208,7 @@ body {
 .boxy p {
     padding: 10px 0 20px 0;
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 
 .commonimg {
@@ -254,6 +258,7 @@ body {
 
     .share {
         width: 80%;
+        margin-top: 40px;
 
 
     }
